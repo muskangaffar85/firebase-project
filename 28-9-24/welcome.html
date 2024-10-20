@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+   <img src="https://media.tenor.com/sCfC2XDlVPYAAAAj/wlcm.gif" alt="" srcset="">
+
+    <script type="module">
+        const user = sessionStorage.getItem("user")
+        console.log(user)
+        if (!user) {
+            window.location.pathname = './sigin.html'
+        }
+    </script>
+</body>
+</html>
